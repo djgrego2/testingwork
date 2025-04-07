@@ -1,0 +1,37 @@
+[
+  {
+    "name": "required-fields",
+    "data": {
+      "FirstName": "John",
+      "LastName": "Doe",
+      "DateOfBirth": "01/01/1960",
+      "Gender": 1,
+      "Coverages": [
+        {
+          "OrganizationNumber": "6",
+          "CarrierNumber": "112",
+          "AccountNumber": "237",
+          "GroupNumber": "VPSP",
+          "Bin": "610738",
+          "Iin": "",
+          "Pcn": "VPSP",
+          "CardHolderId": "975433443",
+          "EffectiveCoverages": [
+            {
+              "RelationshipCode": "001",
+              "PersonCode": "01",
+              "StartDate": "1980-01-01T14:29:02.355Z",
+              "EndDate": "2040-01-01T14:29:02.355Z"
+            }
+          ],
+          "IsEmployee": false,
+          "OtherPayerInfo": {
+            "OtherPayerEffectiveStartDate": "2024-02-27T14:29:02.355Z",
+            "OtherPayerEffectiveEndDate": "2024-02-27T14:29:02.355Z",
+            "OtherPayerOrder": 0
+          }
+        }
+      ]
+    }
+  }
+]
