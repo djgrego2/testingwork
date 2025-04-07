@@ -1,0 +1,28 @@
+{
+  "name": "flecs-ui-test-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:qa": "npx bddgen && npx playwright test --projecs=QA",
+    "test:dev": "npx bddgen && npx playwright test --project=DEV",
+    "test:qa:ui": "npx bddgen && npx playwright test --projecs=QA --ui",
+    "test:dev:ui": "npx bddgen && npx playwright test --project=DEV --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "UI test automation for FLECS",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.0",
+    "@types/jsonpath": "^0.2.4",
+    "@types/node": "^22.13.10",
+    "dotenv": "^16.4.7",
+    "playwright-bdd": "^8.2.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
+  }
+}
